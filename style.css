@@ -1,0 +1,408 @@
+.home-banner{
+    height: 700px;
+    width: 100%;
+    background-color: #3d626c;
+    position:relative;
+}
+.home-image{
+    height: 700px;
+    width:100%;
+    background-image: url("	https://mobirise.com/extensions/personam4/assets/images/mbr.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0%;
+    left:0%;
+    opacity: 0.5;
+}
+
+.navigation-bar{
+    position: fixed;
+    top:0%;
+    left:0%;
+    height:70px;
+    background-color: #3d626c;
+    z-index: 4;
+}
+
+.navigation-bar ul{
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation-bar ul li{
+    margin-left: 20px;
+}
+
+.navigation-bar button{
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.navigation-bar button::before{
+    content: "";
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:0%;
+    height:100%;
+    transition: 1s ease;
+    z-index: -1;
+}
+
+.navigation-bar button:hover:before{
+    width: 100%;
+    background-color: white;
+}
+.navigation-bar button:hover{
+    color: #3d626c;
+    transition: 1s ease;
+}
+
+.home-text{
+    z-index: 1;
+}
+
+.text-banner h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.text-banner{
+    height:700px;
+}
+
+.text-banner button::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    transition: 1s ease;
+    z-index:-1;
+
+}
+.text-banner button:hover:before{
+    width: 100%;
+    background-color: white;
+}
+.text-banner button{
+    color:white;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid white;
+    z-index:1;
+}
+
+.text-banner button:hover{
+    color:#3d626c;
+    transition: 1s ease;
+}
+
+
+.inner-4-box{
+    height: 600px;
+}
+
+.inner-4-box:hover{
+    box-shadow: 0 8px 5px -8px black;
+}
+
+.inner-4-box h1{
+    color:#3d626c;
+}
+
+.inner-4-box p{
+    font-size: 20px;
+    color:#3d626c
+}
+
+.inner-4-box span{
+    position:absolute;
+    bottom:15%;
+    margin-top:30px;
+    font-size:20px;
+    font-weight: 600;
+    color: #3d626c;
+}
+
+.inner-4-box span::after{
+    content:"";
+    position:absolute;
+    height:3px;
+    background-color:#3d626c;
+    width:100%;
+    left:0%;
+    bottom:0%;
+    transition: 0.7s ease;
+    transform: scaleX(1);
+    transform-origin: bottom right;
+}
+
+.inner-4-box span:hover:after{
+    width:100%;
+    transform:scaleX(0);
+}
+
+
+
+.second p{
+    color:#3d626c;
+    font-size:20px;
+}
+
+.second span{
+    color:#3d626c;
+    font-size: 20px;
+    position: absolute;
+}
+.second span::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    left:0%;
+    bottom:0;
+    height:3px;
+    background-color: #3d626c;
+    transform: scaleX(1);
+    transform-origin: bottom right;
+    transition: all 0.7s ease;
+}
+
+.second span:hover:after{
+    width:100%;
+    transform:scaleX(0);
+}
+
+.third{
+    /* height:1550px; */
+    background-color: #fff3f3;
+    color: #3d626c;
+}
+
+#third-head h1{
+    font-family: 'EB Garamond', serif;
+    font-size:50px;
+    font-weight:800;
+    color: #3d626c;
+}
+
+.img-1 img{
+    width:100%;
+    height:400px;
+    box-shadow:0px 10px 10px -10px grey;
+}
+
+.img-2 img{
+    width:100%;
+    height: 400px;
+    box-shadow:0px 10px 10px -10px grey;
+}
+
+.img-3 img{
+    width:100%;
+    height:400px;
+    box-shadow:0px 10px 10px -10px grey;
+}
+
+.img-4 img{
+    width:100%;
+    height:400px;
+    box-shadow:0px 10px 10px -10px grey;
+}
+
+.fourth{
+    /* height: 700px; */
+    background-image: url('	https://mobirise.com/extensions/personam4/assets/images/mbr-3.jpg');
+    background-size: cover;
+    
+}
+
+
+.row-1 span {
+    position: relative;
+    font-size: 25px;
+} 
+
+.row-1 span::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:3px;
+    bottom:0%;
+    left:0%;
+    background-color:#3d626c;
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: all 0.7s ease;
+}
+
+.row-1 span:hover:after{
+    width:100%;
+    transform:scaleX(0);
+}
+
+.row-2 p{
+ font-size: 25px;
+ color: #3d626c;
+ font-weight: 400;
+}
+
+.fifth{
+    color: #3d626c;
+    background-color: #f6f6f6;
+}
+
+.fifth i{
+    font-size: 100px;
+    padding: 20px;
+}
+
+.sixth{
+    color: #3d626c;
+    background-color: #f6f6f6;
+}
+
+.sixth p, li{
+    font-size: 16px;
+    line-height: 22pt;
+}
+
+.sixth span{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sixth span::after{
+    content:"";
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    background-color:#3d626c;
+    transform: scaleX(1);
+    transform-origin:right;
+    transition:all 0.7s ease;
+}
+
+.sixth span:hover:after{
+    width:100%;
+    transform:scaleX(0);
+}
+
+.card-link h2{
+    color: #3d626c;
+    font-weight: 400;
+}
+.card-link h2:hover{
+    color: white;
+}
+.card-header{
+    color:#3d626c;
+    box-shadow: none;
+}
+
+.card-header:hover{
+    background-color: #3d626c;
+    color: white;
+}
+
+.parallex{
+    background-image: url('https://mobirise.com/extensions/personam4/assets/images/mbr.jpg');
+    min-height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sale{
+    color: #3d626c;
+}
+
+.sale-head h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.countdown h1{
+    font-size: 60px;
+}
+
+.client{
+    margin-top: 40px;
+    background-color: #fff3f3;
+    color: #3d626c;
+}
+
+.carosel{
+    height: 400px;
+     position: relative;
+}
+
+.carosel i{
+    font-size: 200px;
+    color: #a5adaf;
+    position: absolute;
+    left: 40%;
+    top:15%;
+    z-index: -1;
+}
+
+.carosel h3, .carosel p, .carosel h4{
+    color: #3d626c;
+}
+
+.about{
+    padding: 50px;
+    background-color: #f6f6f6;
+    color: #3d626c;
+}
+
+.about span{
+    font-size: 18px !important;
+    font-weight: 350;
+}
+
+.social{
+    color: #3d626c;
+}
+
+.social span{
+    font-size: 20px;
+
+}
+
+.footer{
+    background-color: #3d626c;
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+.footer ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+
+
